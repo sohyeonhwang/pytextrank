@@ -41,7 +41,7 @@ Implements TextRank by Mihalcea, et al., as a spaCy pipeline component.
     """
 
     _EDGE_WEIGHT = 1.0
-    _POS_KEPT = ["ADJ", "NOUN", "PROPN", "VERB"]
+    _POS_KEPT = ["ADJ", "NOUN", "PROPN", "VERB","NUM"]
     _TOKEN_LOOKBACK = 3
 
 
